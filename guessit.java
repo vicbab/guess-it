@@ -16,7 +16,6 @@ public class guessit {
         int targetNumber = randInt(1, 10000);
         Scanner guessInput = new Scanner(System.in);
         int guess = guessInput.nextInt();
-        System.out.println(targetNumber);
         
         while(!(guess == targetNumber)){
             int diff = guess - 2000;
